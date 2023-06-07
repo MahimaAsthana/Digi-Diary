@@ -1,12 +1,11 @@
 import pandas as pd 
 import numpy as np
 import tensorflow
-import keras
-from keras.preprocessing.text import Tokenizer
-from keras.utils import pad_sequences
-#from tensorflow.keras.preprocessing.sequence import pad_sequences
-from keras.models import load_model
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import load_model
 from datetime import datetime
+
 # Make Code and URL Dictionary for different Emotions
 emo_code_url = {
     "empty": [0, "D:/V2 Python/C118/DigiD/Scripts/static/assets/emoticons/Empty.png"],
